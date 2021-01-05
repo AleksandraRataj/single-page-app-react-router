@@ -1,0 +1,43 @@
+nav {
+    padding: 0 30px 30px 0;
+}
+
+.mainNav ul {
+    list-style: none;
+}
+
+nav.mainNav a {
+    display: block;
+    padding: 10px;
+
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .2s;
+}
+
+nav.mainNav a:hover {
+   transform: translateX(20px);
+}
+
+nav.mainNav a.active {
+    border-left: 8px solid darkblue;
+    transform: translateX(0);
+}
+
+nav.mainNav li:nth-child(1) a.active{
+    border-left-color: green;
+}
+
+nav.mainNav li:nth-child(2) a.active{
+    border-left-color: yellow;
+}
+
+nav.mainNav li:nth-child(3) a.active{
+    border-left-color: orange;
+}
+
+nav.mainNav li:nth-child(4) a.active{
+    border-left-color: red;
+}

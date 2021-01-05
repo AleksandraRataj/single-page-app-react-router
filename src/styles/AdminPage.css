@@ -1,0 +1,26 @@
+.login_admin label {
+    display: block;
+}
+
+.login_admin input {
+    display: block;
+    margin: 10px 10px 10px 0;
+    height: 26px;
+    border: 1px solid #323232;
+}
+
+.login_admin button {
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #323232;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.login_admin button:hover {
+    color: white;
+    background-color:#323232;
+}
