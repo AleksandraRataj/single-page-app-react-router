@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Project description
+
+Very simple projects of single page application written in React. The aim of the project was to learn how the React Router library components work.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
